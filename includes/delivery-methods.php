@@ -7,13 +7,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Definește adresa depozitului.
 if ( ! defined( 'STORE_ADDRESS' ) ) {
-    define( 'STORE_ADDRESS', 'Arde, PAFS SRL, Strada Fortului 24, Rudeni 077046' );
+    define( 'STORE_ADDRESS', 'YOUR_STORE_ADDRESS' );
 }
 
 // Funcția calculezDist() – returnează distanța în km.
 if ( ! function_exists( 'calculezDist' ) ) {
     function calculezDist( $origin, $destination ) {
-        $api_key = 'AIzaSyBqhQhc1rsCfKoQ2bPnr7hXWf8-wk6zsG0';
+        $api_key = 'YOUR_API_KEY';
         $origins = urlencode( $origin );
         $destinations = urlencode( $destination );
         $url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins={$origins}&destinations={$destinations}&key={$api_key}&units=metric&mode=driving&language=ro";
