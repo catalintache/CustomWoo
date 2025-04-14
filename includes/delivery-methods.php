@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Definește adresa depozitului.
 if ( ! defined( 'STORE_ADDRESS' ) ) {
-    define( 'STORE_ADDRESS', 'YOUR_STORE_ADDRESS' );
+    define( 'STORE_ADDRESS', 'YOUR_STORE_ADDRESS ' );
 }
 
 // Funcția calculezDist() – returnează distanța în km.
