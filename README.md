@@ -43,6 +43,3 @@
   - Product data such as unit weight, classification, pallet weight, etc., are defined in a global file (`includes/globals.php`).
   - Shipping rates by county and a mapping of counties to their capitals are also stored in the same file.
   - This centralized system enables complex shipping calculations and the determination of rates based on regional factors.
-
-## Project Structure
-
